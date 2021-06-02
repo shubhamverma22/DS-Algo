@@ -1,4 +1,4 @@
-//Linear Search
+//Linear Search : Complexity: O(n)
 
 function linearSearch(arr, n) {
 	for (var i = 0; i < arr.length; i++) {
@@ -11,7 +11,7 @@ function linearSearch(arr, n) {
 
 console.log(linearSearch([2, 5, 9, 5, 7, 3, 2], 5));
 
-//Binary Search
+//Binary Search : Complexity: O(log n)
 
 function binarySearch(arr, n) {
 	var lowIndex = 0,
